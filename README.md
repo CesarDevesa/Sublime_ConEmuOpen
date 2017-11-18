@@ -1,4 +1,4 @@
-Launch ConEmu64[CMD] from CMDER instalation (http://cmder.net/) from the current or project root folder
+[ST3] Launch ConEmu64(CMD) from CMDER instalation (http://cmder.net/) from the current or project root folder in Sublime Text 3
 =================================
 Only works for sublime text 3 on windows!
 
