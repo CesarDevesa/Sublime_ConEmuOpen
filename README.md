@@ -9,11 +9,16 @@ Only works for sublime text 3 on windows!
 * Open ConEmu tab with a contextual title, like `st:<project name>` and `st:<project name>: <folder relative path to the project>`
 
 ## Installation
-You should install the [ConEmu](https://github.com/Maximus5/ConEmu) first, and add `ConEmu.exe` to the `%PATH%` environment var.
-Then use `Package Control` to install this package. 
+1º - You should install the [ConEmu](https://github.com/Maximus5/ConEmu) first, and add `ConEmu64.exe` to the `%PATH%` environment var.
+
+2º - Copy this project to the Sublime Text 3 Packages directory:
+"C:\Users\YOUR_USER_NAME\AppData\Roaming\Sublime Text 3\Packages\"
+
+Make sure the path to the "ConEmuOpen.py" file looks like this:
+"C:\Users\YOUR_USER_NAME\AppData\Roaming\Sublime Text 3\Packages\Sublime_ConEmuOpen\ConEmuOpen.py"
 
 ## Usage
-* Use `alt+c` to open current file's folder, `ctrl+alt+c` to open the project or top folder.
+* Use `ctrl+shift+1` to open current file's folder, `ctrl+1` to open the project or top folder.
 * Command palette commands: `ConEmu: Open current file folder` and `ConEmu: Open project or top folder`.
 
 ## License :

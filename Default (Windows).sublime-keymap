@@ -1,4 +1,4 @@
 [
-	{ "keys": ["ctrl+alt+c"], "command": "open_conemu_project" },
-	{ "keys": ["alt+c"], "command": "open_conemu_here" }
+	{ "keys": ["ctrl+1"], "command": "open_conemu_project" },
+	{ "keys": ["ctrl+shift+1"], "command": "open_conemu_here" }
 ]
