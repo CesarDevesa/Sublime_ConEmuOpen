@@ -27,35 +27,25 @@ Only works for sublime text 3 on windows!
 * Use shortcuts with file already open, see keymap:
 - `git init` needed to be considered root folder
 
-CMD in new window [Root folder]
-ctrl+1 OR ctrl+keypad1
+CMD in new window [Root folder]: `ctrl+1` OR `ctrl+keypad1`
 
-CMD in new window [Current file folder]
-ctrl+shift+1 OR ctrl+shift+keypad1
+CMD in new window [Current file folder]: `ctrl+shift+1` OR `ctrl+shift+keypad1`
 
-CMD in tabs [Root folder]
-ctrl+2 OR ctrl+keypad2
+CMD in tabs [Root folder]: `ctrl+2` OR `ctrl+keypad2`
 
-CMD in tabs [Current file folder]
-ctrl+shift+2 OR ctrl+shift+keypad2
+CMD in tabs [Current file folder]: `ctrl+shift+2` OR `ctrl+shift+keypad2`
 
-PowerShell in new window [Root folder]
-ctrl+3 OR ctrl+keypad3
+PowerShell in new window [Root folder]: `ctrl+3` OR `ctrl+keypad3`
 
-PowerShell in new window [Current file folder]
-ctrl+shift+3 OR ctrl+shift+keypad3
+PowerShell in new window [Current file folder]: `ctrl+shift+3` OR `ctrl+shift+keypad3`
 
-PowerShell in tabs [Root folder]
-ctrl+4 OR ctrl+keypad4
+PowerShell in tabs [Root folder]: `ctrl+4` OR `ctrl+keypad4`
 
-PowerShell in tabs [Current file folder]
-ctrl+shift+4 OR ctrl+shift+keypad4
+PowerShell in tabs [Current file folder]: `ctrl+shift+4` OR `ctrl+shift+keypad4`
 
-Legacy version 1.3.0 - PowerShell in tabs [Current file folder]
-alt+c 
+Legacy version 1.3.0 - PowerShell in tabs [Current file folder]: `alt+c`
 
-Legacy version 1.3.0 - PowerShell in tabs [Root folder]
-ctrl+alt+c
+Legacy version 1.3.0 - PowerShell in tabs [Root folder]: `ctrl+alt+c`
 
 
 ## License:
