@@ -1,23 +1,23 @@
-Frist update the project - See list of changes
+Update v2.0.0-BETA - See list of changes
 
 _
 # See list of changes:
 
-Add files:
-.gittemplate
-.todo
-
+Set folder with 'git init' as root folder
+Define window title with project name and path to root
+Implements opening with CMD or PowerShell
+Implements openings in new windows or tabs
+Implements new shortcuts
 Update README.md
-Change info about Instalation and Usage (keymap)
-
 Change keymap file
-
-Change .gitignore
+Add tasks in .todo
+Update 'Side Bar.sublime-menu'  Caption and launch_type
+Update 'Default (Windows).sublime-keymap' with new shortcuts
 
 _
 # External links:
 
-https://cnpagency.com/blog/creating-sublime-text-3-plugins-part-1/
+https://conemu.github.io/en/ConEmuArgs.html
 
 _
 #######################################################################

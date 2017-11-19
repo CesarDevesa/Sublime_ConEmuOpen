@@ -1,3 +1,3 @@
 [
-	{ "caption": "Open ConEmu Here", "command": "open_conemu_here", "args": {"paths": []} }
+	{ "caption": "Open CMDER [ConEmu] Here", "command": "open_conemu_here", "args": {"paths": [], "launch_type": ["sidebar_menu"]} }
 ]

@@ -1,4 +1,27 @@
 [
-	{ "keys": ["ctrl+1"], "command": "open_conemu_project" },
-	{ "keys": ["ctrl+shift+1"], "command": "open_conemu_here" }
+	
+	{ "keys": ["ctrl+1"], "command": "open_conemu_project", "args": {"launch_type": ["cmd_new_window"]} },
+	{ "keys": ["ctrl+keypad1"], "command": "open_conemu_project", "args": {"launch_type": ["cmd_new_window"]} },
+	{ "keys": ["ctrl+shift+1"], "command": "open_conemu_here", "args": {"launch_type": ["cmd_new_window"]} },
+	{ "keys": ["ctrl+shift+keypad1"], "command": "open_conemu_here", "args": {"launch_type": ["cmd_new_window"]} },
+
+	{ "keys": ["ctrl+2"], "command": "open_conemu_project", "args": {"launch_type": ["cmd_new_tab"]} },
+	{ "keys": ["ctrl+keypad2"], "command": "open_conemu_project", "args": {"launch_type": ["cmd_new_tab"]} },
+	{ "keys": ["ctrl+shift+2"], "command": "open_conemu_here", "args": {"launch_type": ["cmd_new_tab"]} },
+	{ "keys": ["ctrl+shift+keypad2"], "command": "open_conemu_here", "args": {"launch_type": ["cmd_new_tab"]} },
+
+	
+	{ "keys": ["ctrl+3"], "command": "open_conemu_project", "args": {"launch_type": ["ps_new_window"]} },
+	{ "keys": ["ctrl+keypad3"], "command": "open_conemu_project", "args": {"launch_type": ["ps_new_window"]} },
+	{ "keys": ["ctrl+shift+3"], "command": "open_conemu_here", "args": {"launch_type": ["ps_new_window"]} },
+	{ "keys": ["ctrl+shift+keypad3"], "command": "open_conemu_here", "args": {"launch_type": ["ps_new_window"]} },
+
+	{ "keys": ["ctrl+4"], "command": "open_conemu_project", "args": {"launch_type": ["ps_new_tab"]} },
+	{ "keys": ["ctrl+keypad4"], "command": "open_conemu_project", "args": {"launch_type": ["ps_new_tab"]} },
+	{ "keys": ["ctrl+shift+4"], "command": "open_conemu_here", "args": {"launch_type": ["ps_new_tab"]} },
+	{ "keys": ["ctrl+shift+keypad4"], "command": "open_conemu_here", "args": {"launch_type": ["ps_new_tab"]} },
+
+
+	{ "keys": ["alt+c"], "command": "open_conemu_project ", "args": {"launch_type": ["legacy"]} },
+	{ "keys": ["ctrl+alt+c"], "command": "open_conemu_here", "args": {"launch_type": ["legacy"]} }
 ]

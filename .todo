@@ -1,9 +1,76 @@
 TODO See this info and if everything is ok delete this line or delete this file
 
-# Change to ConEmu64.exe
+# Change to ConEmu64.exe -ok
 
-# Switch from PowerShell to CMD
+# Switch from PowerShell to CMD -ok
 
-# Update info for x64 end CMD in GitHub
+# Update info for x64 end CMD in GitHub -ok
 
-Good luck!!!
+# Remove contextual title -ok
+
+# Add open project root if .git -ok
+
+# Info to reset CMDER
+
+# Info to config in Settings >> Startup >> Task [printscreens]
+
+# add info keymap
+
+# add info new features type_launch + legacy
+
+# Add tag 2.0.0
+
+# pull request !?
+
+Good luck!!! -I had
+
+_
+Anotations:
+
+https://conemu.github.io/en/ConEmuArgs.html
+
+#command= "cmd /K echo "+str(title)
+#os.system(command)
+
+
+
+    def open_conemu(self, dirname, title):
+        #command= "start conemu.exe /Single /Dir \""+dirname+"\" /cmdlist powershell -new_console:t:\""+title+"\""
+        # cmd /k "%ConEmuDir%\..\init.bat"  -new_console:d:C:\www\Projetos
+        #command= "start conemu64.exe /Single /Dir \""+dirname+"\" -run {cmd::Cmder as Admin} -cur_console:n"
+        #command= 'cmd /K "%ConEmuDir%\..\init.bat"  -new_console:d:'+dirname
+
+        # command= "start %CMDER_ROOT%\\vendor\\init.bat -new_console:d:"+title
+
+        # command= "start conemu64.exe /Single /Dir \""+dirname+"\" -run {cmd::Cmder as Admin} -cur_console:n"
+
+        command= "start conemu64.exe -here -dir \""+dirname+"\" -run {cmd::Cmder} -new_console:d:\""+dirname+"\""
+        #t:
+
+        #command= "cmd /K echo \""+dirname+"\" "
+
+        os.system(command)
+
+
+
+
+        command= "start conemu64.exe -here -dir \""+dirname+"\" -run {cmd::Cmder} -new_console:d:\""+dirname+"\""
+
+
+
+
+
+
+        Reset CMDER
+
+        # CMD + New Windows
+        command = "start conemu.exe /NoSingle -run {cmd::Cmder} -new_console:d:\""+dirname+"\" -new_console:t:\""+title+"\""
+
+        # CMD + Tabs
+        #command = "start conemu.exe /Single /Dir \""+dirname+"\" /cmdlist {cmd::Cmder} -new_console:t:\""+title+"\""
+
+        # PoewrShell + New Windows
+        #command = "start conemu.exe /NoSingle /Dir \""+dirname+"\" /cmdlist powershell -new_console:t:\""+title+"\""
+
+        # PoewrShell + Tabs
+        #command = "start conemu.exe /Single /Dir \""+dirname+"\" /cmdlist powershell -new_console:t:\""+title+"\""
